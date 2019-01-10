@@ -9,6 +9,6 @@ def capture():
     camera.capture('/home/pi/%s.jpg' % datetime)
 
 while True:
-    number = int(input("Press 0"))
+    number = int(input("Press 0."))
     for number == 0:
         def capture()

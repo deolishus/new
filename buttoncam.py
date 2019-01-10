@@ -10,5 +10,5 @@ def capture():
 
 while True:
     number = int(input("Press 0."))
-    for number == 0:
-        def capture()
+    for number = 0:
+        capture()

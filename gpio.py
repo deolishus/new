@@ -6,9 +6,9 @@ red = LED(17)
 def redlight():
 
     while True:
-        print('/n')
+        print("\n")
         number = int(input("Type a number:> "))
-        print('/n')
+        print("\n")
 
         if 1 <= number < 5:
             red.on()
@@ -19,4 +19,5 @@ def redlight():
         else:
             red.off()
             print("Light off!")
+
 redlight()

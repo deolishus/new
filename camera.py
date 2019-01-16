@@ -11,11 +11,11 @@ def capture():
 take = int(input("Type a number> "))
 
 if take = 1:
-    camera.start_preview()
+    camera.start_preview
 elif take = 2:
-    camera.stop_preview()
+    camera.stop_preview
 else:
-    camera.capture()
+    camera.capture
 
 
 pause()

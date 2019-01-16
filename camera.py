@@ -16,4 +16,5 @@ elif take = 2:
 else:
     camera.capture()
 
+
 pause()

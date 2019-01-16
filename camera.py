@@ -10,10 +10,10 @@ def capture():
 
     take = int(input("Type a number> "))
 
-    if take = 1:
+    if take == 1:
         camera.start_preview
 
-    elif take = 2:
+    elif take == 2:
         camera.stop_preview
     else:
         camera.capture

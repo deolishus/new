@@ -10,7 +10,7 @@ def capture():
 
 take = int(input("Hit 1 to take picture!"))
 
-if take = 1:
+if take == 1:
     capture()
 else:
     pause()

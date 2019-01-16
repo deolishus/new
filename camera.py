@@ -3,7 +3,7 @@ from datetime import datetime
 from signal import pause
 
 camera = PiCamera()
-take = int((input("Type a number> "))
+take = int(input("Type a number> "))
 
 def capture():
     datetime = datetime.now().isoformat()

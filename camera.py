@@ -8,14 +8,15 @@ def capture():
     datetime = datetime.now().isoformat()
     camera.capture('/home/pi/%s.jpg' % datetime)
 
-take = int(input("Type a number> "))
+    take = int(input("Type a number> "))
 
-if take = 1:
-    camera.start_preview
-elif take = 2:
-    camera.stop_preview
-else:
-    camera.capture
+    if take = 1:
+        camera.start_preview
+
+    elif take = 2:
+        camera.stop_preview
+    else:
+        camera.capture
 
 
 pause()

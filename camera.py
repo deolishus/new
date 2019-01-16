@@ -14,6 +14,6 @@ if take = 1:
 elif take = 2:
     camera.stop_preview()
 else:
-    camera.capture
+    camera.capture()
 
 pause()

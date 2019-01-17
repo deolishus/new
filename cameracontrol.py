@@ -8,6 +8,6 @@ movie = int(input("Type a number and press enter> "))
 
 while True:
     if movie == 1:
-        camera.preview
+        camera.preview()
     else:
-        camera.stop_preview
+        camera.stop_preview()

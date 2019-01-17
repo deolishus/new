@@ -2,7 +2,7 @@ from picamera import PiCamera
 from time import sleep
 
 camera = PiCamera()
-
+camera.image_effect = 'cartoon'
 camera.start_preview()
 camera.start_recording('/home/pi/video.h264')
 sleep(10)

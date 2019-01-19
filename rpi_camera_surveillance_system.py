@@ -3,7 +3,7 @@ import picamera
 import logging
 import SocketServer
 from threading import Condition
-import server
+from http import server
 
 PAGE = """\
 <html>

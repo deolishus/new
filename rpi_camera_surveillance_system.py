@@ -3,9 +3,9 @@ import picamera
 import logging
 import SocketServer
 from threading import Condition
-from BaseHTTPServer import BaseHTTPRequestHandler
+from BaseHTTPServer import server
 
-PAGE="""\
+PAGE = """\
 <html>
 <head>
 <title>Raspberry Pi - Surveillance Camera</title>

@@ -1,5 +1,5 @@
 import io
-import picamera
+import PiCamera
 import logging
 import SocketServer
 from threading import Condition
